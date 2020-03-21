@@ -17,5 +17,6 @@ public class Rectangulo implements Figura {
 
 		return lado * altura;
 	}
+	
 
 }

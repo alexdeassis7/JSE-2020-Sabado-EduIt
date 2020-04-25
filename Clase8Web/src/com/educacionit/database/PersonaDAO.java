@@ -5,7 +5,6 @@ import java.sql.Statement;
 import com.educacionit.models.PersonaVO;
 //capa de acceso a datos 
 public class PersonaDAO {
-	
 
 
 	public boolean registrarUsuario(PersonaVO miPersona) {

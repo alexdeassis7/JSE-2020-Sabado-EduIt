@@ -27,11 +27,11 @@ public class Conexion {
 		}
 	}
 
-	public static void main(String[] args) {
-		PersonaDAO dao =  new PersonaDAO();
-		PersonaVO p1 = new PersonaVO( "Daniel" , 15554);
-		dao.registrarUsuario(p1);
-	}
+//	public static void main(String[] args) {
+//		PersonaDAO dao =  new PersonaDAO();
+//		PersonaVO p1 = new PersonaVO( "Daniel" , 15554);
+//		dao.registrarUsuario(p1);
+//	}
 	
 	public Connection getConnection() {
 		return conn;

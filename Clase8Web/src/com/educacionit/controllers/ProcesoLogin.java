@@ -26,6 +26,7 @@ public class ProcesoLogin extends HttpServlet {
 
 	}
 
+	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
@@ -34,7 +35,7 @@ public class ProcesoLogin extends HttpServlet {
 		String nombreUsuario = null;
 		Integer passwordUsuario = null;
 
-		if ((request.getParameter("pass") != "" && request.getParameter("uname") != "" )) {
+		if ((request.getParameter("pass") != "" && request.getParameter("uname") != "")) {
 			passwordUsuario = Integer.parseInt(request.getParameter("pass"));
 			nombreUsuario = request.getParameter("uname");
 		}
